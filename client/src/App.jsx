@@ -19,7 +19,7 @@ function App() {
       <><div>
         <h1>ร้านค้าสินค้าออนไลน์</h1>
         <AddProduct apiUrl={apiUrl} onProductAdded={() => setRefresh(!refresh)} />
-        <ProductList apiUrl="http://localhost:5000" />
+        <ProductList apiUrl="http://localhost:5555" />
       </div><div>
           <a href="https://vite.dev" target="_blank">
             <img src={viteLogo} className="logo" alt="Vite logo" />
